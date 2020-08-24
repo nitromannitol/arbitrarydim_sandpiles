@@ -16,7 +16,7 @@ include("multidim_helpers.jl")
 
 function getOdometer_cpu(init_condition::Array{Int64,1},M::Int64, d::Int64)
 	N = getHyperTetrahedral(d,M);
-	v_prev = CUDA.fill(Int64(0),N);
+	v_prev = fill(0,N)
 	v = Int64(1)*(init_condition.>=2*(d));
 	index_vec = Array{CartesianIndex{Int64(d)},1}(undef, N);
 	initializeIndexVec!(index_vec,M);
