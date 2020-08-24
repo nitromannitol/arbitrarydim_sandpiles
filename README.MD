@@ -19,11 +19,11 @@ Instructions
 
 3.  compute arbitrary dimensional sandpiles on the hypercube by running, for example
 
-	>d = 6
-	>M= 3
-	>init_condition = 2*d
-	>@time v, index, num_iters = getOdometer_cpu(init_condition,M,d)
-	>s = getLaplacian_cpu(v,index,M,d)
+		>d = 6
+		>M= 3
+		>init_condition = 2*d
+		>@time v, index, num_iters = getOdometer_cpu(init_condition,M,d)
+		>s = getLaplacian_cpu(v,index,M,d)
 
 --- 
 	- see run_gpu.jl  and run_cpu.jl for some sample code
