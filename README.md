@@ -88,7 +88,3 @@ the paper.
 
 The code is by **Ahmed Bou-Rabee**. To cite it, use [`CITATION.cff`](CITATION.cff), which also
 lists the paper above.
-
-## License
-
-The code is licensed under the Apache License 2.0; see [`LICENSE`](LICENSE).

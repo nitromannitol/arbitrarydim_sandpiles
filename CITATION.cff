@@ -17,7 +17,6 @@ keywords:
   - parallel toppling
   - odometer
   - GPU
-license: Apache-2.0
 references:
   - type: article
     title: "Dynamic dimensional reduction in the Abelian sandpile"
