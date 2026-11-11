@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "arbitrarydim_sandpiles: stabilization of the Abelian sandpile on a hypercube in any dimension"
+type: software
+repository-code: "https://github.com/nitromannitol/arbitrarydim_sandpiles"
+abstract: >-
+  Julia code, for the CPU and for CUDA GPUs, that computes the odometer of the parallel
+  toppling of the Abelian sandpile on a hypercube in any dimension, on the fundamental domain
+  of the hypercube. It accompanies the paper "Dynamic dimensional reduction in the Abelian
+  sandpile".
+authors:
+  - family-names: Bou-Rabee
+    given-names: Ahmed
+keywords:
+  - Julia
+  - Abelian sandpile
+  - parallel toppling
+  - odometer
+  - GPU
+license: Apache-2.0
+references:
+  - type: article
+    title: "Dynamic dimensional reduction in the Abelian sandpile"
+    authors:
+      - family-names: Bou-Rabee
+        given-names: Ahmed
+    journal: "Communications in Mathematical Physics"
+    volume: 390
+    start: 933
+    end: 958
+    year: 2022
+    doi: "10.1007/s00220-022-04322-z"
+    url: "https://arxiv.org/abs/2009.05968"
+    notes: "The paper that this code accompanies."
