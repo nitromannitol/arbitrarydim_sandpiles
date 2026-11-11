@@ -21,9 +21,8 @@ A machine-checked Lean 4 formalization of the paper is in
 
 ## Running
 
-The original instructions ask for [Julia](https://julialang.org/downloads/) 1.5.0 or newer.
-The code dates from August 2020 and has not been re-tested since, neither on later Julia
-releases nor on later releases of CUDA.jl. There is no `Project.toml`; the packages are:
+The code was written in August 2020 for [Julia](https://julialang.org/downloads/) 1.5.0, and
+the original instructions ask for Julia 1.5.0 or newer. The packages used are:
 
 | Needed for | Packages |
 |---|---|
